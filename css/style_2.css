@@ -1,0 +1,358 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  font-weight: 400;
+  line-height: 1.42em;
+  min-width: 320px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #212121;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  font-family: "Roboto";
+  font-weight: 400;
+  opacity: 1;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+}
+
+svg {
+  display: none;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #212121;
+
+  text-decoration: none;
+}
+
+.nav__link--active {
+  color: #2196f3;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #2196f3;
+}
+
+.contacts__link {
+  text-decoration: none;
+}
+
+.contacts__text {
+  color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.contacts__text:hover,
+.contacts__text:focus {
+  color: #2196f3;
+}
+
+.layout__main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+
+  color: #ffffff;
+  background-color: #757575;
+}
+
+.btn {
+  color: #fff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.layout__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.layout__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #757575;
+}
+
+.block__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #757575;
+  width: 370px;
+}
+
+.block__title,
+.card__title,
+.blocks__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.66;
+  text-align: center;
+
+  color: #212121;
+}
+
+.card__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: #212121;
+}
+
+.card__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: #757575;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #ffffff;
+}
+
+.contact__link {
+  display: block;
+
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
